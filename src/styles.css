@@ -1,0 +1,40 @@
+@import '~antd/dist/antd.css';
+
+.leaflet-routing-container{
+  display: none!important;
+}
+.leaflet-control-container .leaflet-routing-container-hide {
+  display: none;
+}
+
+.columnResizer {
+  background-color: transparent;
+  width: 8px;
+  position: relative;
+}
+
+.columnResizer:after{
+  content: '...';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: black;
+  transform: rotate(90deg) translatex(-50%);
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+td {
+  width: 50%;
+  height: 100vh;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+}
+.map{
+  height: 100%;
+}

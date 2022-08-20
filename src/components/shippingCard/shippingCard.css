@@ -1,0 +1,31 @@
+.shipping-item {
+    width: 90%;
+    padding: 30px;
+    border-radius: 4px;
+    border: 1px solid #f5f5f5;
+    margin-bottom: 30px;
+    margin-right: 10%;
+    min-width: 460px;
+}
+
+.selected {
+    border: 1px solid #1890ff;
+}
+
+.shipping-item .shipping-info{
+   margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.shipping-item .shipping-info .shipping-id{
+   color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.shipping-item .locations{
+   display: flex;
+    justify-content: space-between;
+}
+.shipping-item .locations .ant-select{
+    width: 48%;
+}

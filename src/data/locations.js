@@ -1,0 +1,53 @@
+export const locations = [
+    {
+        id: 'dfsikd',
+        name: 'Armavir',
+        lat: '40.1590519',
+        lng: '44.0250491'
+    }, {
+        id: 'thjilx',
+        name: 'Yerevan',
+        lat: '40.1535005',
+        lng: '44.4185274'
+    }, {
+        id: 'rgbnju',
+        name: 'Sevan',
+        lat: '40.548772',
+        lng: '44.957293'
+    }, {
+        id: 'lsdojd',
+        name: 'Tsakhkadzor',
+        lat: '40.531104',
+        lng: '44.719860'
+    }, {
+        id: 'domfjd',
+        name: 'Dilijan',
+        lat: '40.741784',
+        lng: '44.872034'
+    }, {
+        id: 'ufjisk',
+        name: 'Ijevan',
+        lat: '40.878007',
+        lng: '45.143766'
+    }, {
+        id: 'idksuy',
+        name: 'Jermuk',
+        lat: '39.840426',
+        lng: '45.670322'
+    }, {
+        id: 'pskduc',
+        name: 'Yeghegnadzor',
+        lat: '39.764008',
+        lng: '45.333242'
+    }, {
+        id: 'oidskd',
+        name: 'Abovyan',
+        lat: '40.279573',
+        lng: '44.629786'
+    }, {
+        id: 'rtfdxv',
+        name: 'Arzni',
+        lat: '40.295609',
+        lng: '44.597328'
+    },
+]
